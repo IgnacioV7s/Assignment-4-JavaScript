@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(./wallpaper.jpg);
+    background-repeat: repeat;
+    background-size: 100dvw;
+}
+
+h1{
+    text-transform: uppercase;
+    color: darkgoldenrod;
+    text-shadow: 3px 3px 4px black;
+}
+
+h3{
+    text-transform: uppercase;
+    color: darkgoldenrod;
+}
+
+p{
+    margin: 0.5em;
+    color: white;
+}
+
+#searchBar{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+#searchBar > label{
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+    padding: 0.4em;
+    border: 2px solid white
+}
+
+#fetchExercises{
+    background: darkgoldenrod;
+    color: white;
+    padding: 0.5em 0.5em;
+    border-radius: 15px;
+}
+
+.exercise {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), url(./gym.jpg);
+    background-size: cover;
+    background-color: grey;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 70dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#exerciseList > div > img{
+    border: 0.2em solid darkgoldenrod;
+}
+
+#exerciseList > div > p:nth-child(6){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5em 2em;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+#fetchExercises{
+    margin: 1em;
+}
